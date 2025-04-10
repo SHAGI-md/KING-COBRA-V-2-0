@@ -1,5 +1,4 @@
-If you don't have a `session.json` file, you can create one to store the session once it's generated. You will have to write some code or use an existing method to generate the session.
-js
+
    const { Client } = require('whatsapp-web.js');
    const fs = require('fs');
    const client = new Client();
